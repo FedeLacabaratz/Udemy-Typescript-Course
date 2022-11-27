@@ -1,6 +1,5 @@
 import powers from '../data/powers';
 
-
 export class Hero {
     constructor(
         public name: string,

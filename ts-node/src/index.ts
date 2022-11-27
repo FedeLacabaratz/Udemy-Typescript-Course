@@ -1,15 +1,9 @@
-import { Hero } from './classes/Hero';
-// import { Hero as SuperHero, Hero2 } from './classes/Hero';
-// import * as HeroClasses from './classes/Hero';
+import { Pokemon } from "./decorators/pokemon-class";
 
 
-// const ironman = new SuperHero('Ironman', 1, 55);
-const ironman = new Hero('Ironman', 10, 55);
+const charmander = new Pokemon('Charmander');
 
-console.log( ironman );
-console.log( ironman.power );
+// (Pokemon.prototype as any).customName = 'Pikachu'
 
-
-
-
-
+charmander.PublicApi= 'https://fernando-herrera.com'
+console.log(charmander)
